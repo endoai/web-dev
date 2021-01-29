@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/home.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/tech_4.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/about.js"></script>
+</head>
+<body>
+    <header class="pc-header">
+        <img id="logo" src="../img/endoai_logo.png">
+        <nav class="header-nav">
+            <ul>
+                <li><a class="nav-button" href="../html/home.html">Home</a></li>
+                <li><a class="nav-button" href="../index.htm">About Us</a></li>
+                <li><a class="nav-button" href="../html/contact.html">Contact Us</a></li>
+            </ul>
+        </nav><br>
+    </header>
+
+<div class="tech_wrap">
+<div class="tech_tit">
+	<h2>TECHNOLOGIES</h2>
+</div>
+
+<div class="tech_ct">
+	<div class="container">
+		<h3>ENDO AI의 핵심기술</h3>
+		<p>Endo AI는 의료기기와 AI의 결합으로 과잉진료 및 오진단 문제를 해결하고 맞춤형 진단과 치료 방법을 제공하기 위해 노력하고 있습니다. <br class="br720">  </p>
+		<div class="tech_list clearfix">
+			<ul class="list_ct">
+                <li class="mouse">
+					<div class="moff">
+						<div class="img_wrap">
+							<img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p>High-quality Data</p>
+					</div>
+
+					<div class="mon">
+					
+						<div class="img_wrap">
+							<img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p class="p1">High-quality Data</p>
+						<span class="sero_bar">
+						</span>
+						<div class="p2">
+							방대한 데이터 양과<br>
+							질 높은 한국적 데이터를<br>
+							활용한 학습데이터 구축<br>
+							@SEOUL NATIONAL<br>
+							UNIVERSITY HOSPITAL
+						</div>
+					</div>
+				</li>
+				<li class="mouse">
+					<div class="moff">
+						<div class="img_wrap">
+							<img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p>Real-time Detection</p>
+					</div>
+
+					<div class="mon">
+					
+						<div class="img_wrap">
+							<img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p class="p1">Real-time Detection</p>
+						<span class="sero_bar">
+						</span>
+						<div class="p2">
+                            40-80ms로 분석 송출 
+                            <br>Ultra-short latency time
+
+						</div>
+					</div>
+				</li>
+				<li class="mouse">
+					<div class="moff">
+						<div class="img_wrap">
+							<img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p>Sessile Serrated Polyp</p>
+					</div>
+
+
+					<div class="mon">
+					
+						<div class="img_wrap">
+							<img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p class="p1">Sessile Serrated Polyp</p>
+						<span class="sero_bar">
+						</span>
+						<div class="p2">
+						    육안으로 검출하기 어려운<br>
+						    편평성 용종 검출을 통해 <br>
+							detection rate 상승
+						</div>
+					</div>
+				</li>
+				<li class="mouse">
+					<div class="moff">
+						<div class="img_wrap">
+							<img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p>Optical Diagnosis</p>
+						
+					</div>
+
+					<div class="mon">
+					
+						<div class="img_wrap">
+							<img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
+						</div>
+						<p class="p1">Optical Diagnosis</p>
+						<span class="sero_bar">
+						</span>
+						<div class="p2">
+							광학적 진단을 통한<br>
+							병리학적 조직검사 시간 단축
+						</div>
+					</div>
+                </li>
+
+				<!-- <li>
+					<div class="moff">
+						<div class="img_wrap">
+							<img src="../img/sct12ct_icon4.png" alt="">
+						</div>
+						<p>Endo Doctor</p>
+					</div>
+				</li> -->
+			
+			</ul>
+		
+		</div>
+	</div>
+</div>
+</div>
+<script>
+
+    $(".list_ct > li.mouse").hover(function(){
+        $(this).children(".moff").hide();
+        $(this).children(".mon").show().css({"background":"#fff"});
+    },function(){
+        $(this).children(".moff").show().css({"background":""});
+        $(this).children(".mon").hide();
+    })
+    
+</script> 
+</body>
+</html>

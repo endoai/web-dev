@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/home.css"> -->
+    <link rel="stylesheet" type="text/css" href="../css/tech_3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/about.js"></script>
+</head>
+<body>
+    <header class="pc-header">
+        <img id="logo" src="../img/endoai_logo.png">
+        <nav class="header-nav">
+            <ul>
+                <li><a class="nav-button" href="../html/home.html">Home</a></li>
+                <li><a class="nav-button" href="../index.htm">About Us</a></li>
+                <li><a class="nav-button" href="../html/contact.html">Contact Us</a></li>
+            </ul>
+        </nav><br>
+    </header>
+
+</head>
+
+<body>
+ 
+    <div class="sol_main">
+        <h2>SOLUTION</h2>
+    </div>
+    <div class="sol">
+        <div class="sol_tit">
+            <div class="sol_container">
+                <dl>
+                    <dt>Medical AI Service</dt>
+                    <dd>엔도아이는 인공지능 기술을 
+                        <!-- <br class="pc720">  -->
+                        의료계에 적용하여 새로운 패러다임으로 접근합니다.</dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="sol_cont clearfix">
+            <div class="sol_cont_left">
+                <div class="sol_cont_click">
+                    <dl>
+                        <dt>Detection Solution</dt>
+                        <dd>
+                            <p class="p1">
+                                저희 Endo Doctor는 사망률 1위 질병인 암을 조기 검진하여 <br> 발병율과 사망률을 낮추는데 기여하는 인공지능 기반 솔루션입니다. <br>
+                                국내 최고의 서울대학교 병원의 데이터를 활용하여 <br> 정확도 높은 대장 내시경 detection 인공지능 소프트웨어를 개발하고 있습니다. 
+                            </p>
+                            <p class="p2">
+                                저희 엔도아이의 솔루션은 Real-time 영상 송출과 전향적 데이터 기반 분석 알고리즘입니다. <br>
+                                또한 육안 검출이 어려운 ssp 데이터 구축 알고리즘을 통해 최적의 용종 Detection solution을 제공합니다. 
+                            </p>
+                            <p class="p3">
+                                저희 엔도아이의 솔루션은 무엇보다도 의료진의 편의성을 중심으로 설계되었습니다. <br>
+                                Bounding box 와 알림을 통해 실시간으로 용종 검출을 확인할 수 있습니다. 
+                            
+                            </p>
+                        
+                        </dd>
+                    </dl>
+                
+                </div>
+                <div class="sol_cont_l_tit">
+                    <div class="sol_cont_wrapper">
+                        <!-- <img src="../img/그림1.png" alt=""> -->
+                        <p>Detection</p>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="sol_cont_right">
+                <div class="sol_cont_r_tit">
+                    <!-- <img src="../img/그림2.png" alt=""> -->
+                    <p>Diagnosis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        $(".sol_cont_left").hover(function(){
+            $(".sol_cont_l_tit").stop().css({"display":"none"});
+        
+        },function(){
+            $(".sol_cont_l_tit").stop().css({"display":"block"});
+        
+        });
+        
+        $(".sol_cont > div.sol_cont_right").hover(function(){
+            $(this).stop().css({"background-image":"url(../img/doctors.png)","background-position":"center","background-repeat":"no-repeat","background-size":"cover"})
+        },function(){
+            $(this).stop().css({"background":"#ada49b"})
+            });
+    </script>
+</body>
+</html>

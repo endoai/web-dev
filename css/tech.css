@@ -1,0 +1,110 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'NotoSansKR-Regular';
+    src: url('../fonts/Noto_Sans_KR/NotoSansKR-Regular.otf');
+  }
+  
+  @font-face{
+    font-family: 'NotoSansKR-Bold';
+    src: url('../fonts/Noto_Sans_KR/NotoSansKR-Bold.otf');
+  }
+  
+
+
+/* 공통 컨텐츠 박스 */
+.cont_area {width:100%; max-width:1200px; margin:0 auto; box-sizing:border-box;}
+div.leadership_imgcont > dl dd > a.on {color:#248738;}
+
+input,select {outline-color:#ccc;}
+
+
+/* 공통 서브 타이틀 */
+.page_tit {margin-bottom:70px; font-size:40px; line-height:60px; font-weight:500; color: #000; text-align: center;}
+.page_tit > span {display:block;font-size:18px;line-height:30px;font-weight: 300;padding-top:10px;}
+.point_tit {padding-top:10px; font-size:30px;line-height:43px;color:#000;background:url('../image/sub/sub_tit.png') no-repeat top left;font-weight: 500;}
+.point_tit.non {background: none;}
+
+.point_tit:first-child {margin-top: 0;}
+
+
+/* 서브 상단 비주얼 */
+.sub_visual {display:table; width:100%;}
+.sub03 .sub_visual_inner {background-image:url(../img/sub_visual03.jpg); height: 55vh;}
+.sub_visual_inner {display:table-cell; vertical-align:middle;background-repeat:no-repeat; background-position:50% 0;}
+
+.sub04 .sub_title,
+.sub02 .busi01 .sub_title,
+.sub01 .sub_title,
+.sub03 .sub_title {font-family:"NotoSansKR-Bold"; font-weight: 500;color:#fff; font-size: 50px;}
+.sub04 .sub_title_desc,
+.sub02 .busi01 .sub_title_desc,
+.sub01 .sub_title_desc,
+.sub03 .sub_title_desc  {color:#fff; font-size: 20px; }
+
+/* _연구소 */
+
+.content.laboratory {padding-bottom:0;}
+.labICont{font-family: 'Montserrat', sans-serif;}
+.bold{font-family: 'Montserrat', sans-serif;}
+.labICont > ul {overflow:hidden;}
+.labICont > ul > li {position:relative; float:left; width:50%; height:670px; font-size:0; overflow:hidden;}
+.labICont.ty2 > ul > li {float:right;}
+.labICont.ty2.etc > ul > li {height:640px;}
+.labICont > ul > li .keyImgM {display:none;}
+.labICont > ul > li .txt {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; padding:0 20px; font-weight:200; font-size:30px; color:#000; word-break:keep-all; box-sizing:border-box; text-align:center;}
+.labICont > ul > li .txt strong {display:block; padding-top:19px; font-weight:500; font-size:50px; color:#000; line-height:66px;}
+
+.laboKey {font-size:0;}
+.laboKey > img {width:100%;}
+
+.labFullTxt {position:relative;}
+.labFullTxt > .txt {position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:100%; padding:0 20px; font-weight:200; font-size:30px; color:#fff; line-height:36px; word-break:keep-all; box-sizing:border-box; text-align:center;}
+.labFullTxt > .txt .thin {font-weight:100;}
+.labFullTxt > .txt > strong {display:block; font-weight:400; font-size:50px; color:whitesmoke; line-height:60px;}
+.labFullTxt > .txt > strong.top {padding-bottom:18px;}
+.labFullTxt > .txt > strong.bottom {padding:18px 0;}
+.labFullTxt > .txt > strong small {font-size:300; font-size:20px; color:whitesmoke;}
+.labFullTxt > .txt .mont {font-family:"NotoSansKR-Bold"; font-weight:400; font-size:50px; color:whitesmoke;}
+
+.labFullTxt > .labFullImg {font-size:0;}
+.labFullTxt > .labFullImg .keyImgM {display:none;}
+.labFullTxt > .labFullImg > img {width:100%;}
+
+.labRe {padding:115px 0 100px 0; min-height:720px; background:#f5f5f5; box-sizing:border-box;}
+.labRe > .inner {width:1200px; margin:0 auto;}
+
+.labReListWrap {padding-bottom:17px; overflow-x:scroll;}
+
+.labReList {width:1664px; overflow:hidden;}
+.labReList > li {float:left; width:136px; text-align:center;}
+.labReList > li + li {margin-left:55px;}
+.labReList > li > a .thumb {display:block; height:66px;}
+.labReList > li > a .thumb .on {display:none;}
+.labReList > li > a .txt {display:block; padding-top:24px; font-weight:400; font-size:18px; color:#999; line-height:27px;}
+.labReList > li > a.on .txt {color:#248738;}
+.labReList > li > a.on .thumb .on {display:inline-block;}
+.labReList > li > a.on .thumb .off {display:none;}
+
+.labReList > li.ty1 > a .thumb img {width:71px;}
+.labReList > li.ty2 > a .thumb img {width:68px;}
+.labReList > li.ty3 > a .thumb img {width:64px;}
+.labReList > li.ty4 > a .thumb img {width:65px;}
+.labReList > li.ty5 > a .thumb img {width:56px;}
+.labReList > li.ty6 > a .thumb img {width:58px;}
+.labReList > li.ty7 > a .thumb img {width:60px;}
+.labReList > li.ty8 > a .thumb img {width:48px;}
+.labReList > li.ty9 > a .thumb img {width:54px;}
+
+.labReCont {position:relative; padding-top:150px;}
+.labReCont:before {content:''; position:absolute; top:50px; left:50%; margin-left:-17px; width:34px; height:34px; background:url(../../image/sub/rnd/img_labreicon.png) no-repeat; background-size:34px 34px;}
+
+.labReEle {display:none; overflow:hidden; font-size:0;}
+.labReEle.on {display:block;}
+.labReEle > li {display:inline-block; width:400px; margin-top:97px; padding-right:20px; box-sizing:border-box; vertical-align:top;}
+.labReEle > li:nth-child(-n + 3) {margin-top:0;}
+.labReEle > li dt {position:relative; display:block; padding-bottom:16px; font-weight:400; font-size:18px; color:#000; line-height:24px;}
+.labReEle > li dt:before {content:''; position:absolute; bottom:0; left:0; width:20px; border-bottom:1px solid #000;}
+.labReEle > li dd {padding-top:34px; font-weight:200; font-size:18px; color:#333; line-height:30px;}
+
+/* key visual */
+.scienceVisual{background-image:url(../image/sub/science/science_visual.png);}
