@@ -2,139 +2,275 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="../css/common.css">
         <link rel="stylesheet" type="text/css" href="../css/main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-       
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
         <script type="text/javascript" src="../js/about.js"></script>
         
     </head>
     <body>
         <header class="pc-header">
+            
             <img id="logo" src="../img/endoai_logo.png">
-            <nav class="header-nav">
-                <ul>
-                    <li><a class="nav-button" href="../html/home.html">Home</a></li>
-                    <li><a class="nav-button" href="../index.htm">About Us</a></li>
-                    <li><a class="nav-button" href="../html/contact.html">Contact Us</a></li>
-                </ul>
-            </nav><br>
+            <label for="toggle" onclick>
+              <img id="menu" src="../img/menu.png" no-repeat width="20" height="20">
+            </label>
+            <input type="checkbox" id="toggle"/>
+            
+            <div class="header_nav">
+            <ul id="nav">
+                <!-- <li><a href="#top">Home</a></li> -->
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#milestone">Milestone</a></li>
+                <li><a href="#partnership">Partnership</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </header>
 
+        <div id="wrapper">
+
         <!-- 슬로건 -->
-        <div class="jb-box">
+        <div class="main-box">
             <video muted autoplay loop>
-                <source src="../img/Fiber.mp4" type="video/mp4">
+                <source src="../img/Earth_Zoom_In_1.mp4" type="video/mp4">
             </video>
-            <div class="jb-text">
-                <p>Innovate Healthcare <br> with EndoAI<br></div>
+            <div class="main-text">
+                <p> In Search Of Innovation<br>with endoAI</div>
                 <!-- <div class="slogan">Better the medical environment <br>
                     with human technology and human knowledge.<br></div></div> -->
         </div>
 
+        <div class="ct_wrapper">
+        <div class="ct_intro" id="intro">
+          <div class="container">
+            <h3>Introduction</h3>
+            <p>(주)엔도아이는 임상의가 직접 수집 가공한 전향적 데이터를 기반으로 차별화된 소화기관 전문 인공지능 솔루션을 제공하고 한국의 의료서비스의 글로벌화에 앞장서는 기업입니다.<br> 
+            </p>
+          
+          </div></div>
+   
+
+        <!-- 목표 -->
+        <div class="ct_1">
+          <div class="container">
+            <h3>Corporate Identity</h3>
+            <p>대장암은 전세계적으로 암 관련 사망의 주요한 원인으로 서구화된 생활습관으로 인해 급격하게 증가하고 있습니다. 대장암은 대장 내시경을 통해 암 발생 전단계인 용종의 단계에서 미리 발견하고 제거함으로써 암 발생율을 80%이상 감소시키고 이와 관련된 사망률을 50%까지 감소시킬 수 있습니다. 
+              엔도아이는 대장암의 예방 및 진단을 위한 인공지능의 개발로 의료진을 보조하고 이를 통해서 대장암 예방에 핵심적인 역할을 할 것으로 기대됩니다. 
+              또한 용종 검출 가이드 시스템을 제공함으로써 조기암의 발견과 수술적 치료 및 진단 결정 등에 핵심적으로 적용이 가능합니다.
+              엔도아이는 뛰어난 기술력과 차별화된 사업 전략을 기반으로 글로벌 의료 AI 기업으로 지속 성장해 나갈 것입니다.
+              </p>
+            </div>
+          </div>
 
         <!-- 회사소개 -->
-        <div class="ct">
+        <div class="ct_1">
         <div class="container">
-          <h3>Introduction</h3>
-          <p>엔도아이는 임상의가 직접 수집 가공한 전향적 데이터를 기반으로 의료진의 술기가 담긴 인공지능 소프트웨어를 개발하는 기업입니다. <br>
-            엔도아이는 의료기기와 AI의 결합으로 과잉진료 및 오진단 문제를 해결하고 맞춤형 진단과 치료 방법을 제공하기 위해 노력하고 있습니다.<br>
-            엔도아이의 의료 인공지능 솔루션인 K-DOCTER는 의료환경에 도입시 다음과 같은 효과를 제공합니다.</p>
-           
+          <h3>Market Issue</h3>
+          <p>(주)엔도아이는 의료기기와 인공지능의 융합으로 과잉진료 및 오진단 등의 여러 문제를 해결하고 개인별 맞춤형 진단과 치료 방법을 제공하기 위해 노력하고 있습니다. </p>
           </div>
         
 
-      <div class="card_table clearfix"></div>
+      <div class="card_table clearfix">
         <div class="card">
-          <img id="card_img" src="../img/s3.png" alt="" width="110" height="110">
-          <h1>효율성 극대화</h1>
-          <p class="title">검사 및 진단 소요 시간 단축</p>
+          <img id="card_img" src="../img/DOCTOR.png" alt="" width="110" height="110">
+          <h1>의료진의 부족</h1>
+          <p class="title">장시간 소요되는 검사로 인한 의료진 부족</p>
         </div>
         
         <div class="card">
           <img id="card_img" src="../img/s1.png" alt="" width="110" height="110">
-          <h1>의료서비스의 상향평준화</h1>
-          <p class="title">기기 사양 격차 완화 및 성능 업그레이드</p>
+          <h1>병원별 기기 사양의 격차</h1>
+          <p class="title">기기 사양의 격차로 인한 의료서비스 질적 차이</p>
         </div>
 
         
         <div class="card">
           <img id="card_img" src="../img/s6.png" alt="" width="110" height="110">
-          <h1>용종 발견율 향상</h1>
-          <p class="title">ssp solution 제공</p>
+          <h1>상황에 따른 용종 발견율 차이</h1>
+          <p class="title">의료진의 피로도 및 숙련도에 따른 발견율 차이
+          </p>
         </div>
       </div>
     </div>
 
-
-
-        <div class="ct">
+        <!-- 회사기술 -->
+        <div class="ct_sol">
           <div class="container">
-            <h3>Our Vision</h3>
+              <h3>endo K-DOC Solution</h3>
+              <p>(주)엔도아이는 임상에서 가장 광범위하게 사용되고 있는 비확대 및 백색광 영상 내시경 시스템을 이용하여 용종의 발견과 조직타입의 예측을 보조하는 대장내시경용 인공지능 시스템을 개발하고 있습니다. 
+                 endo K-Doc은 다양한 제조사 및 구형 시스템 환경에서도 적용 가능합니다. 이를 통해 병원별 기기 사양의 격차를 완화하고 
+                 실시간 검출이 까다로운 편평거치상 용종에 대한 솔루션 제공으로 의료서비스 질 개선과 용종 검출율 향상에 기여합니다. 
+              </p>
           </div>
 
-            <div class="FullTxt">
-              <div class="FullImg">
-                  <!-- <img src="../img/img_lab01.jpg" alt="" class="keyImg"> -->
-              </div>
-              <p class="txt">
-                <strong class="top" >
-                  <img src="../img/double_1.png" alt="" width="70px">
-                 한국의 의료기술을 소프트웨어로서 시스템화하여 세계화 추진
-                 <img src="../img/double_2.png" alt="" width="70px"> 
-                </strong>질 높은 한국적 의료 데이터 학습</p>
-            </div>
-
-              <img id="vision_img" src="../img/반완.png" alt="img" width="1034" height="302"></img>         
-           </div>
-
-        <div class="ct">
-          <div class="container">
-            <h3>Our Partnership</h3>
-            <p>엔도아이는 서울대학교병원 강남 센터, 서울대학교 의공대학, 서울대학교 의과대학 의료빅데이터 센터와의 지속적 협력을 통한 <br> 
-              산학 협력 및 공동 R&D를 통해 의료분야 최고의 제품 개발과 고도화를 추진하고 있습니다.   </p>
-           </div>
+          <div class="tech_list clearfix">
+              <ul class="list_ct">
+                  <li class="mouse">
+                      <div class="moff">
+                          <div class="img_wrap">
+                              <img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p>High-quality Data</p>
+                      </div>
+  
+                      <div class="mon">
+                      
+                          <div class="img_wrap">
+                              <img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p class="p1">High-quality Data</p>
+                          <span class="sero_bar">
+                          </span>
+                          <div class="p2">
+                              소화기분야 최고 수준을 갖춘 <br>
+                              국내의 질높은 의료데이터를 <br>
+                              전향적 연구 방법으로 수집<br>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="mouse">
+                      <div class="moff">
+                          <div class="img_wrap">
+                              <img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p>Real-time Detection</p>
+                      </div>
+  
+                      <div class="mon">
+                      
+                          <div class="img_wrap">
+                              <img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p class="p1">Real-time Detection</p>
+                          <span class="sero_bar">
+                          </span>
+                          <div class="p2">
+                              리얼타임 분석 송출 <br> 
+                              (Ultra-short latency time: 40-80ms)
+                          </div>
+                      </div>
+                  </li>
+                  <li class="mouse">
+                      <div class="moff">
+                          <div class="img_wrap">
+                              <img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p>Detection of <br>Sessile Serrated Polyp</p>
+                      </div>
+  
+  
+                      <div class="mon">
+                      
+                          <div class="img_wrap">
+                              <img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p class="p1">Detection of <br> Sessile Serrated Polyp</p>
+                          <span class="sero_bar">
+                          </span>
+                          <div class="p2">
+                            대장암의 30%를 차지하는<br>
+                            편평거치상 용종(ssp)을<br>
+                            효과적으로 발견하고 진단<br>
+                            (유병율 약 8-10%, 발견율 0.6-11%)
+                          </div>
+                      </div>
+                  </li>
+                  <li class="mouse">
+                      <div class="moff">
+                          <div class="img_wrap">
+                              <img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p>Optical Diagnosis</p>
+                          
+                      </div>
+  
+                      <div class="mon">
+                      
+                          <div class="img_wrap">
+                              <img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
+                          </div>
+                          <p class="p1">출시예정</p>
+                          <span class="sero_bar">
+                          </span>
+                          <div class="p2">
+                              광학적 진단을 통한<br>
+                              병리학적 조직검사 시간 및 비용 감축
+                          </div>
+                      </div>
+                  </li>
+  
+                  <!-- <li>
+                      <div class="moff">
+                          <div class="img_wrap">
+                              <img src="../img/sct12ct_icon4.png" alt="">
+                          </div>
+                          <p>Endo Doctor</p>
+                      </div>
+                  </li> -->
+              
+              </ul>
+          
+          </div>
         </div>
- 
-        <!-- partnership -->
-        <div class="function">
-          <div class="func">
-              <div>
-                  <img id="func_img" src="../img/logo2.png" alt="img" width="110" height="110">
-              </div>
-              <div class="func_text">
-                  서울대학교 병원 본원, 강남센터<br>
-              </div>
-              <div class="func_text_sub">학습데이터 수집</div>
+      
+      <script>
+      
+          $(".list_ct > li.mouse").hover(function(){
+              $(this).children(".moff").hide();
+              $(this).children(".mon").show().css({"background":"#fff"});
+          },function(){
+              $(this).children(".moff").show().css({"background":"fff"});
+              $(this).children(".mon").hide();
+          })
+          
+      </script> 
+
+
+<!-- <div class="jb-wrap">
+  <div class="jb-image">
+    <img src="../img/22.jpg" alt="" class="keyImg" width="100%" height="600"></div>
+    <div class="jb-text">
+    <h3>Our Vision</h3><br>
+      <p class="vision_1">
+        <img src="../img/double_1.png" alt="" width="50px">
+        한국의 의료기술을 소프트웨어로서 시스템화하여 세계화 추진
+        <img src="../img/double_2.png" alt="" width="50px"> </p>
+      <p class="vision_2"> 질 높은 한국적 의료 데이터 학습</p>
+  </div>
+</div> -->
+
+        <!-- <div class="FullTxt">
+          <div class="FullImg">
+              <img src="../img/22.jpg" alt="" class="keyImg" width="100%" height="600">
           </div>
-          <div class="func">
-              <div>
-                  <img id="func_img" src="../img/logo1.png" alt="img" width="110" height="110">
-              </div>
-              <div class="func_text">
-                  서울대학교 의공대학<br></div>
-              <div class="func_text_sub">임상데이터 수집 및 소프트웨어 개발</div>
-          </div>
-          <div class="func">
-              <div>
-                  <img id="func_img" src="../img/logo3.png" alt="img" width="220" height="110">
-              </div>
-              <div class="func_text">
-                  서울대학교 의료빅데이터 센터<br>
-              </div>
-                  <div class="func_text_sub">기술자문 및 UX/UI 개발 </div>
-          </div>
-      </div>
+          <p class="txt">
+            <strong class="top" >
+              <img src="../img/double_1.png" alt="" width="50px">한국의 의료기술을 소프트웨어로서 시스템화하여 세계화 추진<img src="../img/double_2.png" alt="" width="50px"> 
+            </strong>질 높은 한국적 의료 데이터 학습
+          </p> </div> -->
+
+
+
 
         
         <!-- 연혁 -->
-        <div class="ct">
+        <div class="ct" id="milestone">
           <div class="container">
-            <h3>Our Goals</h3>
-            <p> 엔도아이는 2019년도에 설립되어 서울대학교와의 산학협력을 통해 꾸준히 연구개발을 진행해오고 있습니다.<br>
+            <h3>Our Milestone</h3>
+            <p> (주)엔도아이는 2019년도에 설립되어 서울대학교와의 산학협력을 통해 꾸준히 연구개발을 진행해오고 있습니다.<br>
                 더 나아가 인허가 제도 승인 및 해외 법인 설립을 통해 국제적 기업으로서의 성장 모멘텀을 확립하겠습니다.  </p>  
            </div>
         </div>
@@ -151,7 +287,7 @@
                   <!-- <span data-year="" data-info="서울대학교와 산학협력 체결"></span> -->
                 </div>
                 <div class="input">
-                  <span class="data-info">1단계 연구개발 결과 발표<br>(민감도,특이도 92%) </span>
+                  <span class="data-info">1단계 연구개발 결과 발표<br>(민감도, 특이도 92%) </span>
                   <span class="data-year">2020</span>
                 </div>
                 <div class="input">
@@ -164,27 +300,27 @@
 
                 </div>
                 <div class="input">
-                  <span class="data-info">GMP 적합인증</span>
-                  <span class="data-year"></span>
+                  <span class="data-info">국내외 특허 출원</span>
+                  <span class="data-year">2021</span>
                     <span data-year="2021" data-info="GMP 적합인증 획득"></span>
                 </div>
                 <div class="input">
-                  <span class="data-info">다기관 임상시험</span>
-                  <span class="data-year">2021</span>
+                  <span class="data-info">GMP 적합인증</span>
+                  <span class="data-year"></span>
                     <span data-year="" data-info="다기관 임상시험"></span>
                 </div>
                 <div class="input">
-                  <span class="data-info">의료기기<br>제조품목허가</span>
+                  <span class="data-info">다기관 임상시험</span>
                   <span class="data-year"></span>
                     <span data-year="" data-info="의료기기제조품목허가"></span>
                 </div>
                 <div class="input">
-                  <span class="data-info">ISO13845및 CE인증</span>
+                  <span class="data-info">의료기기<br>제조품목허가</span>
                   <span class="data-year"></span>
                     <span data-year="" data-info="ISO13845 및 CE인증"></span>
                 </div>
                 <div class="input">
-                  <span class="data-info">국내외 특허 출원</span>
+                  <span class="data-info">ISO13845및 CE인증</span>
                   <span class="data-year"></span>
                     <span data-year="" data-info="국내외 특허 출원"></span>
                 </div>
@@ -195,161 +331,68 @@
                 </div>
             </div>
         </div>
-        
-        <!-- 회사기술 -->
-        <div class="ct_sol">
-            <div class="container">
-                <h3>Our Solution</h3>
-                <p>엔도아이는 의료진이 개발한 의료진을 위한 차별화된 Medical AI solution으로<br> 
-                   의료진에게 편익을 제공하며 의료서비스 개선을 위해 노력하고 있습니다. </p>
-                <div class="tech_list clearfix">
-                    <ul class="list_ct">
-                        <li class="mouse">
-                            <div class="moff">
-                                <div class="img_wrap">
-                                    <img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p>High-quality Data</p>
-                            </div>
-        
-                            <div class="mon">
-                            
-                                <div class="img_wrap">
-                                    <img src="../img/icon2.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p class="p1">High-quality Data</p>
-                                <span class="sero_bar">
-                                </span>
-                                <div class="p2">
-                                   소화기분야 최고 수준을 갖춘 <br>
-                                   국내의 질높은 의료데이터를 <br>
-                                   전향적 연구 방법으로 수집<br>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mouse">
-                            <div class="moff">
-                                <div class="img_wrap">
-                                    <img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p>Real-time Detection</p>
-                            </div>
-        
-                            <div class="mon">
-                            
-                                <div class="img_wrap">
-                                    <img src="../img/icon3.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p class="p1">Real-time Detection</p>
-                                <span class="sero_bar">
-                                </span>
-                                <div class="p2">
-                                    리얼타임 분석 송출 <br> 
-                                    (Ultra-short latency time: 40-80ms)
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mouse">
-                            <div class="moff">
-                                <div class="img_wrap">
-                                    <img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p>Sessile Serrated Polyp</p>
-                            </div>
-        
-        
-                            <div class="mon">
-                            
-                                <div class="img_wrap">
-                                    <img src="../img/icon4.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p class="p1">Sessile Serrated Polyp</p>
-                                <span class="sero_bar">
-                                </span>
-                                <div class="p2">
-                                  대장암의 30%를 차지하는<br>
-                                  편평거치상 용종(ssp)을<br>
-                                  효과적으로 발견하고 진단<br>
-                                  (유병율 약 8-10%, 발견율 0.6-11%)
-                                </div>
-                            </div>
-                        </li>
-                        <li class="mouse">
-                            <div class="moff">
-                                <div class="img_wrap">
-                                    <img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p>Optical Diagnosis</p>
-                                
-                            </div>
-        
-                            <div class="mon">
-                            
-                                <div class="img_wrap">
-                                    <img src="../img/icon5.png" alt="Endo Aide" width="130" height="130">
-                                </div>
-                                <p class="p1">출시예정</p>
-                                <span class="sero_bar">
-                                </span>
-                                <div class="p2">
-                                    광학적 진단을 통한<br>
-                                    병리학적 조직검사 시간 단축
-                                </div>
-                            </div>
-                        </li>
-        
-                        <!-- <li>
-                            <div class="moff">
-                                <div class="img_wrap">
-                                    <img src="../img/sct12ct_icon4.png" alt="">
-                                </div>
-                                <p>Endo Doctor</p>
-                            </div>
-                        </li> -->
-                    
-                    </ul>
-                
-                </div>
-            </div>
+        <div class="ct" id="partnership">
+          <div class="container">
+            <h3>Our Partnership</h3>
+            <p>(주)엔도아이는 서울대학교병원 강남 센터, 서울대학교 의공학과, 서울대학교 의과대학 의료빅데이터 센터와의 지속적 협력을 통한 <br> 
+              산학 협력 및 공동 R&D를 통해 의료분야 최고의 제품 개발과 고도화를 추진하고 있습니다.   </p>
+           </div>
+ 
+
+        <!-- partnership -->
+        <div class="function">
+          <div class="func">
+              <div>
+                  <img id="func_img" src="../img/logo2.png" alt="img" width="110" height="110">
+              </div>
+              <div class="func_text">
+                  서울대학교 병원 본원, 강남센터<br>
+              </div>
+              <div class="func_text_sub">학습데이터 수집</div>
+          </div>
+          <div class="func">
+              <div>
+                  <img id="func_img" src="../img/logo1.png" alt="img" width="110" height="110">
+              </div>
+              <div class="func_text">
+                  서울대학교 의과대학 의공학과<br></div>
+              <div class="func_text_sub">임상데이터 수집 및 소프트웨어 개발</div>
+          </div>
+          <div class="func">
+              <div>
+                  <img id="func_img" src="../img/logo3.png" alt="img" width="220" height="110">
+              </div>
+              <div class="func_text">
+                  서울대학교 의료빅데이터 센터<br>
+              </div>
+                  <div class="func_text_sub">기술자문 및 UX/UI 개발 </div>
+          </div>
+      </div>
         </div>
-        
-        <script>
-        
-            $(".list_ct > li.mouse").hover(function(){
-                $(this).children(".moff").hide();
-                $(this).children(".mon").show().css({"background":"#fff"});
-            },function(){
-                $(this).children(".moff").show().css({"background":""});
-                $(this).children(".mon").hide();
-            })
-            
-        </script> 
-
-
 
         <!-- 오시는 길 -->
-        <div class="ct_map">
+        <div class="ct_map" id="contact">
           <div class="container">
-            <h3>CONTACT US</h3>
+            <h3>Contact US</h3>
             <p> </p>  
            </div>
 
         <div class="contact_layer" id="contact">
           <div class="map_wrapper">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6333.382493892411!2d127.03581007333179!3d37.46801121926556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca10d354d9913%3A0xf395c7e7fbbaaeb1!2zYVTshLzthLA!5e0!3m2!1sko!2skr!4v1609825274839!5m2!1sko!2skr"
-              frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1938.1537931689077!2d126.95803668699519!3d37.465924214729576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x163b79f7b39a56bd!2z7ISc7Jq464yA7Jew6rWs6rO17JuQ!5e0!3m2!1sko!2skr!4v1609832773340!5m2!1sko!2skr"
+            frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>
           <div class="contact">
             <div class="text_full">
-              <div class="text w_700 s_45 p_b_40">
-                HEADQUARTER
+              <div class="text w_500 s_35 p_b_40">
+                Headquarter
               </div>
-              <div class="text w_100 s_20 lh_140 p_b_10">
+              <div class="text w_300 s_20 lh_140 p_b_10">
                   (08826) 서울특별시 관악구 관악로 1<br>
                   서울대학교 관악캠퍼스 연구공원 본관 224호<br>
               </div>
               <div class="text s_16">
-                  Tel : 02-3276-9204 / E-mail : support@endoai.co.kr</a>
+                  Tel : 02-3276-9204 / E-mail : contact@endoai.co.kr</a>
               </div>
             </div>
           </div>
@@ -357,47 +400,91 @@
 
         <div class="contact_layer" id="contact">
           <div class="map_wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1938.1537931689077!2d126.95803668699519!3d37.465924214729576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x163b79f7b39a56bd!2z7ISc7Jq464yA7Jew6rWs6rO17JuQ!5e0!3m2!1sko!2skr!4v1609832773340!5m2!1sko!2skr" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6333.382493892411!2d127.03581007333179!3d37.46801121926556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca10d354d9913%3A0xf395c7e7fbbaaeb1!2zYVTshLzthLA!5e0!3m2!1sko!2skr!4v1609825274839!5m2!1sko!2skr"
             frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="contact">
           <div class="text_full">
-            <div class="text w_700 s_45 p_b_40">
-                OFFICE
+            <div class="text w_500 s_35 p_b_40">
+                Office
             </div>
-            <div class="text w_100 s_20 lh_140 p_b_10">
+            <div class="text w_300 s_20 lh_140 p_b_10">
                 (06774) 서울특별시 서초구 강남대로 27<br>
-                양재 aT센터 12층 1206호 ㈜엔도아이<br>
+                양재 aT센터 12층 1206호<br>
             </div>
             <div class="text s_16">
-                Tel : 02-6300-2622 / E-mail : support@endoai.co.kr</a>
+                Tel : 02-6300-2622 / E-mail : contact@endoai.co.kr</a>
             </div>
           </div>
         </div>
         </div>
       </div>
+    </div>
+
+
 
       <div class="top">
         <a href="#top">
-            <img id=top_bnt src="../img/top_bnt.png" alt="Top" width="70" height="70"><br>
+            <img id=top_bnt src="../img/top_bnt.png" alt="Top" width="50" height="50"><br>
         </a>
      </div>
 
-  <div class="footer">
-      <div class="container clearfix">
-          <div class="foot_logo">
-              <img src="../img/그림2.png" alt="endoai_logo" width=270 height=80></div>
-          <div class="foot_ct">
-              <address>
-                  <p>상호 : (주)엔도아이  <span class="barabar"></span>  대표 : 김범수, 박수민  <span class="span_mob"></span> <br class="br_mob">  주소 : 서울시 서초구 강남대로 27, #1206(양재동 aT 센터)</p>
-                  <p>사업자등록번호: 714-88-01431 <span class="barabar"></span> Tel : 02-6300-2622 <span class="span_mob1"></span> <br class="br_mob1">  Fax : 02-6300-0225 </p>
-              
-              </address>
-              <p class="copy">EndoAI © Copyright 2021. All Rights Reserved.</p>
-          </div>
+      <footer class="footer-distributed">
+
+      <div class="footer-left">
+        <h3><img src="../img/logo00.png" width="170" height="48"></h3>
+
+          <!-- <h3>endo<span>AI</span></h3> -->
+
+          <p class="footer-links">
+          <a href="#">Home </a>&nbsp;·
+          <a href="#intro">Intro </a>&nbsp;·
+          <a href="#milestone">Milestone </a>&nbsp;·
+          <a href="#partnership">Partnership </a>&nbsp;·
+          <a href="#contact">Contact </a>
+          </p>
+          
+          <p class="footer-company-name">endoAI &copy; 2021.  All Rights Reserved.</p>
       </div>
-  </div>
 
+      <div class="footer-center">
 
+      <div>
+      <i class="fa fa-map-marker"><img id=tel src="../img/ad.png" width="20" height="20"></i>
+      <p><span>(06774) 서울특별시 서초구 강남대로 27, 양재 aT센터 1206호</span>
+          <span>(08826) 서울특별시 관악구 관악로 1, 서울대학교 관악캠퍼스 연구공원 본관 224호</p></span>
+      </div>
 
+      <div>
+      <i class="fa fa-phone"><img id=tel src="../img/tel.png" width="20" height="20"></i>
+      <p>Tel. (02) 6300 2622  |  Fax. (02) 6300 0225</P>
+      </div>
+
+      <div>
+      <i class="fa fa-envelope"><img id=mail src="../img/mail_1.png" width="20" height="20"></i>
+      <p><a href="mailto:support@company.com">contact@endoai.co.kr</a></p>
+      </div>
+
+      </div>
+
+      <div class="footer-right">
+
+      <p class="footer-company-about">
+      <span>About the company</span>CO-CEO. Bumsoo Kim, Soomin Park
+      </p>
+
+      <!-- <div class="footer-icons">
+
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-github"></i></a>
+
+      </div> -->
+
+      </div>
+
+      </footer>
+
+    </div>
     </body></html>
